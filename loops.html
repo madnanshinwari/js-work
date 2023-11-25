@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let students = [
+        "Adnan ",
+        "khan ",
+        "abdul haq",
+        "sheikh ",
+        "Asad ",
+        "ibrahim",
+        "Muhammad Dawood Khan",
+      ];
+
+      for (let a = 0; a < students.length; a++) {
+        // console.log(`Mr. ${students[a]} invited to taufeeq wedding ceremony`);
+        if (students[a].startsWith("A") || students[a].startsWith("a")) {
+          console.log(`Mr. ${students[a]} invited to taufeeq wedding ceremony`);
+        } else {
+          console.log(
+            `Mr. ${students[a]} not invited to taufeeq wedding ceremony`
+          );
+        }
+      }
+    </script>
+  </body>
+</html>
