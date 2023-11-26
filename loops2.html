@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //   let usernames = [];
+      //   for (let i = 0; i < 5; i++) {
+      //     let username = prompt("create a  usernames");
+      //     if (username != "admin" || username == "admin" || username == "ADMIN") {
+      //       if (username.length >= 5 && usernames <= 20) {
+      //         usernames.push(username);
+      //         console.log("usernames added ");
+      //       }
+      //     } else {
+      //       console.log("invalid username ");
+      //     }
+      //   }
+      //   //console.log(usernames);
+
+      let arr = ["A", "B", "C", "D", "E"];
+      let char = prompt("Enter a char").toUpperCase();
+      for (let a = 0; a < arr.length; a++) {
+        if (char == arr[a]) {
+          console.log("Present");
+        } else {
+          console.log("Absent");
+        }
+      }
+    </script>
+  </body>
+</html>
