@@ -14,9 +14,9 @@ for (let a = 0; a < students.length; a++) {
   } else {
     console.log(no);
   }
-}
-for (let count = 0; count < 5; count++) {
-  if (count  3) {
-    console.log(count);
-  }
-}
+// }
+// for (let count = 0; count < 5; count++) {
+//   if (count  3) {
+//     console.log(count);
+//   }
+// }
