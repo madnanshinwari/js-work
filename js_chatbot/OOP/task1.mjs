@@ -21,10 +21,10 @@ class Employees {
 //     `)
 // }
 
-emp1 = new Employees("Ali ", "khan", 10);
-emp2 = new Employees("fahad ", "khan", 14);
-emp3 = new Employees("shiekh ", "noor", 12);
-emp_list = [emp1, emp2, emp3];
+let emp1 = new Employees("Ali ", "khan", 10);
+let emp2 = new Employees("fahad ", "khan", 14);
+let emp3 = new Employees("shiekh ", "noor", 12);
+let emp_list = [emp1, emp2, emp3];
 
 for (let i = 0; i < emp_list.length; i++) {
   emp_list[i].empDetails();
